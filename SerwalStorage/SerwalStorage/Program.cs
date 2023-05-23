@@ -17,8 +17,6 @@ AddAkcesoria(AkcesoriaRepository);
 AddOkucia(AkcesoriaRepository);
 WriteAll(AkcesoriaRepository);
 
-
-
 static void AddProfile(I_WriteRepository<Profile> repository)
 {
     repository.Add(new Profile { Cod = "P2413", Name = "Skrzydło Drzwiowe 65"});
