@@ -2,7 +2,7 @@
 
 namespace SerwalStorage.Entities.MainEntities
 {
-    public class Okucia : Akcesoria
+    public class Okucia : Accessories
     {
         public string? Color { get; set; }
 

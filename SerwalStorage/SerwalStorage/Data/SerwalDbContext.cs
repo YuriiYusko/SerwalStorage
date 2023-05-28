@@ -5,11 +5,11 @@ namespace GenericPower.Data
 {
     public class SerwalDbContext : DbContext
     {
-        public DbSet<Profile> ProfileSet => Set<Profile>();
+        public DbSet<Profiles> ProfileSet => Set<Profiles>();
 
-        public DbSet<Uszczelki> UszczelkiSet => Set<Uszczelki>();
+        public DbSet<Gaskets> UszczelkiSet => Set<Gaskets>();
 
-        public DbSet<Akcesoria> AkcesoriaSet => Set<Akcesoria>();   
+        public DbSet<Accessories> AkcesoriaSet => Set<Accessories>();   
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
