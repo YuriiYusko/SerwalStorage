@@ -2,7 +2,7 @@
 
 namespace SerwalStorage.Entities.MainEntities
 {
-    public class Profile : EntityBase
+    public class Profiles : EntityBase
     {
         public string? Cod { get; set; }
 

@@ -3,7 +3,8 @@ using System.Drawing;
 
 namespace SerwalStorage.Entities.MainEntities
 {
-    public class Akcesoria : EntityBase
+    public class Accessories : EntityBase
+    //Accessoria
     {
         public string? Cod { get; set; }
 

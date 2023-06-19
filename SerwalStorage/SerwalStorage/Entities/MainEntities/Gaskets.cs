@@ -2,7 +2,7 @@
 
 namespace SerwalStorage.Entities.MainEntities
 {
-    public class Uszczelki : EntityBase
+    public class Gaskets : EntityBase
     {
         public string? Cod { get; set; }
 
